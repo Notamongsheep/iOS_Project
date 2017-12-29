@@ -8,13 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		636573841FD5A9DC007DDD2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636573831FD5A9DC007DDD2D /* AppDelegate.swift */; };
-		636573861FD5A9DC007DDD2D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636573851FD5A9DC007DDD2D /* FirstViewController.swift */; };
-		636573881FD5A9DC007DDD2D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636573871FD5A9DC007DDD2D /* SecondViewController.swift */; };
+		636573861FD5A9DC007DDD2D /* SpellingExerciseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636573851FD5A9DC007DDD2D /* SpellingExerciseController.swift */; };
+		636573881FD5A9DC007DDD2D /* ReadingExerciseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636573871FD5A9DC007DDD2D /* ReadingExerciseController.swift */; };
 		6365738B1FD5A9DC007DDD2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636573891FD5A9DC007DDD2D /* Main.storyboard */; };
 		6365738D1FD5A9DC007DDD2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6365738C1FD5A9DC007DDD2D /* Assets.xcassets */; };
 		636573901FD5A9DC007DDD2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6365738E1FD5A9DC007DDD2D /* LaunchScreen.storyboard */; };
 		6365739B1FD5A9DD007DDD2D /* iOS_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6365739A1FD5A9DD007DDD2D /* iOS_ProjectTests.swift */; };
 		636573A61FD5A9DD007DDD2D /* iOS_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636573A51FD5A9DD007DDD2D /* iOS_ProjectUITests.swift */; };
+		636573B71FD5B6E6007DDD2D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636573B61FD5B6DA007DDD2D /* AVFoundation.framework */; };
+		636573B91FD5FCBD007DDD2D /* EditWordsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636573B81FD5FCBD007DDD2D /* EditWordsController.swift */; };
+		636573BB1FD5FCCF007DDD2D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636573BA1FD5FCCF007DDD2D /* SettingsViewController.swift */; };
+		636F64CF1FD89D6D00A61DC8 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636F64CE1FD89D6D00A61DC8 /* Colors.swift */; };
+		636F64D11FD9A2B900A61DC8 /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636F64D01FD9A2B900A61DC8 /* WelcomeController.swift */; };
+		636F64DF1FDA4FFD00A61DC8 /* NoItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636F64DE1FDA4FFC00A61DC8 /* NoItemsViewController.swift */; };
+		636F64E11FDA502E00A61DC8 /* EndExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636F64E01FDA502D00A61DC8 /* EndExerciseViewController.swift */; };
+		636F64E31FDAF16800A61DC8 /* protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636F64E21FDAF16800A61DC8 /* protocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +45,8 @@
 /* Begin PBXFileReference section */
 		636573801FD5A9DC007DDD2D /* iOS Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		636573831FD5A9DC007DDD2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		636573851FD5A9DC007DDD2D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		636573871FD5A9DC007DDD2D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		636573851FD5A9DC007DDD2D /* SpellingExerciseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellingExerciseController.swift; sourceTree = "<group>"; };
+		636573871FD5A9DC007DDD2D /* ReadingExerciseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingExerciseController.swift; sourceTree = "<group>"; };
 		6365738A1FD5A9DC007DDD2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6365738C1FD5A9DC007DDD2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6365738F1FD5A9DC007DDD2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,19 @@
 		636573A11FD5A9DD007DDD2D /* iOS ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		636573A51FD5A9DD007DDD2D /* iOS_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_ProjectUITests.swift; sourceTree = "<group>"; };
 		636573A71FD5A9DD007DDD2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636573B61FD5B6DA007DDD2D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		636573B81FD5FCBD007DDD2D /* EditWordsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWordsController.swift; sourceTree = "<group>"; };
+		636573BA1FD5FCCF007DDD2D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		636F648E1FD8526100A61DC8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		636F64CE1FD89D6D00A61DC8 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		636F64D01FD9A2B900A61DC8 /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
+		636F64D31FD9F79700A61DC8 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		636F64D51FD9F7A800A61DC8 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		636F64DB1FDA05F500A61DC8 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		636F64DD1FDA05FF00A61DC8 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		636F64DE1FDA4FFC00A61DC8 /* NoItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsViewController.swift; sourceTree = "<group>"; };
+		636F64E01FDA502D00A61DC8 /* EndExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndExerciseViewController.swift; sourceTree = "<group>"; };
+		636F64E21FDAF16800A61DC8 /* protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				636573B71FD5B6E6007DDD2D /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +105,7 @@
 				636573991FD5A9DD007DDD2D /* iOS ProjectTests */,
 				636573A41FD5A9DD007DDD2D /* iOS ProjectUITests */,
 				636573811FD5A9DC007DDD2D /* Products */,
+				636573B51FD5B6D9007DDD2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +123,19 @@
 			isa = PBXGroup;
 			children = (
 				636573831FD5A9DC007DDD2D /* AppDelegate.swift */,
-				636573851FD5A9DC007DDD2D /* FirstViewController.swift */,
-				636573871FD5A9DC007DDD2D /* SecondViewController.swift */,
+				636F64D01FD9A2B900A61DC8 /* WelcomeController.swift */,
+				636573851FD5A9DC007DDD2D /* SpellingExerciseController.swift */,
+				636573871FD5A9DC007DDD2D /* ReadingExerciseController.swift */,
+				636573B81FD5FCBD007DDD2D /* EditWordsController.swift */,
+				636573BA1FD5FCCF007DDD2D /* SettingsViewController.swift */,
 				636573891FD5A9DC007DDD2D /* Main.storyboard */,
 				6365738C1FD5A9DC007DDD2D /* Assets.xcassets */,
 				6365738E1FD5A9DC007DDD2D /* LaunchScreen.storyboard */,
 				636573911FD5A9DC007DDD2D /* Info.plist */,
+				636F64CE1FD89D6D00A61DC8 /* Colors.swift */,
+				636F64DE1FDA4FFC00A61DC8 /* NoItemsViewController.swift */,
+				636F64E01FDA502D00A61DC8 /* EndExerciseViewController.swift */,
+				636F64E21FDAF16800A61DC8 /* protocols.swift */,
 			);
 			path = "iOS Project";
 			sourceTree = "<group>";
@@ -126,6 +156,15 @@
 				636573A71FD5A9DD007DDD2D /* Info.plist */,
 			);
 			path = "iOS ProjectUITests";
+			sourceTree = "<group>";
+		};
+		636573B51FD5B6D9007DDD2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				636F648E1FD8526100A61DC8 /* CoreData.framework */,
+				636573B61FD5B6DA007DDD2D /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +256,8 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
+				"zh-Hant",
 			);
 			mainGroup = 636573771FD5A9DB007DDD2D;
 			productRefGroup = 636573811FD5A9DC007DDD2D /* Products */;
@@ -262,9 +303,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				636573881FD5A9DC007DDD2D /* SecondViewController.swift in Sources */,
+				636573881FD5A9DC007DDD2D /* ReadingExerciseController.swift in Sources */,
+				636F64E11FDA502E00A61DC8 /* EndExerciseViewController.swift in Sources */,
+				636F64D11FD9A2B900A61DC8 /* WelcomeController.swift in Sources */,
+				636F64E31FDAF16800A61DC8 /* protocols.swift in Sources */,
+				636F64CF1FD89D6D00A61DC8 /* Colors.swift in Sources */,
 				636573841FD5A9DC007DDD2D /* AppDelegate.swift in Sources */,
-				636573861FD5A9DC007DDD2D /* FirstViewController.swift in Sources */,
+				636F64DF1FDA4FFD00A61DC8 /* NoItemsViewController.swift in Sources */,
+				636573B91FD5FCBD007DDD2D /* EditWordsController.swift in Sources */,
+				636573861FD5A9DC007DDD2D /* SpellingExerciseController.swift in Sources */,
+				636573BB1FD5FCCF007DDD2D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +352,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				6365738A1FD5A9DC007DDD2D /* Base */,
+				636F64DB1FDA05F500A61DC8 /* zh-Hant */,
+				636F64DD1FDA05FF00A61DC8 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -312,6 +362,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				6365738F1FD5A9DC007DDD2D /* Base */,
+				636F64D31FD9F79700A61DC8 /* zh-Hant */,
+				636F64D51FD9F7A800A61DC8 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -323,6 +375,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -380,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

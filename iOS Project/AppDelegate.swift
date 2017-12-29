@@ -1,22 +1,56 @@
-//
+
 //  AppDelegate.swift
 //  iOS Project
 //
-//  Created by Johnny Chapman on 12/4/17.
+//  Created by Christine Berger on 12/4/17.
 //  Copyright © 2017 Christine Berger. All rights reserved.
 //
 
-import UIKit
+import UIKit        //Provides things handle UI functionality.
+import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        //Controller for User Defaults.
+        let userDefaults = UserDefaults.standard
+        
+        //Check if each item is present. Only add items if they are not.
+        //-- Word List
+        if !isKeyPresentInUserDefaults(key: "Sight Words") {
+            let initialWords = [ "this", "find", "jump", "run", "you" ]
+            userDefaults.set(initialWords, forKey:"Sight Words")
+        }
+        //-- Repeat Spelling Activity
+        if !isKeyPresentInUserDefaults(key: "Repeat Spelling") {
+            userDefaults.set(true, forKey: "Repeat Spelling")
+        }
+        //-- Shuffle Spelling Words
+        if !isKeyPresentInUserDefaults(key: "Random Spelling") {
+            userDefaults.set(false, forKey:"Random Spelling")
+        }
+        //-- Repeat Reading Activity
+        if !isKeyPresentInUserDefaults(key: "Repeat Reading") {
+            userDefaults.set(true, forKey: "Repeat Reading")
+        }
+        //-- Shuffle Reading Words
+        if !isKeyPresentInUserDefaults(key: "Random Reading") {
+            userDefaults.set(false, forKey: "Random Reading")
+        }
+        
+        //Save the data.
+        userDefaults.synchronize()
+    
         return true
+    }
+    
+    //Function for determining if the key is already present in User Defaults.
+    func isKeyPresentInUserDefaults(key: String) -> Bool {
+        return UserDefaults.standard.object(forKey: key) != nil
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -40,7 +74,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
 
 }
 

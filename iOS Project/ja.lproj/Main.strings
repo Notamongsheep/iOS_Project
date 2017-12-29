@@ -1,0 +1,99 @@
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "54C-7p-ZhJ"; */
+"54C-7p-ZhJ.text" = "設定";
+
+/* Class = "UIButton"; normalTitle = "Tap here to listen again"; ObjectID = "5mM-vC-m3d"; */
+"5mM-vC-m3d.normalTitle" = "Tap here to listen again";
+
+/* Class = "UIButton"; normalTitle = "NEXT WORD"; ObjectID = "6AD-y5-aTp"; */
+"6AD-y5-aTp.normalTitle" = "NEXT WORD";
+
+/* Class = "UITabBarItem"; title = "Edit Words"; ObjectID = "89q-Np-Kc7"; */
+"89q-Np-Kc7.title" = "Edit Words";
+
+/* Class = "UILabel"; text = "In the future, we plan to expand this app so that it can be used to study spelling and reading of words in different languages."; ObjectID = "9vD-SO-dtp"; */
+"9vD-SO-dtp.text" = "In the future, we plan to expand this app so that it can be used to study spelling and reading of words in different languages.";
+
+/* Class = "UILabel"; text = "123"; ObjectID = "AI2-Hq-aKH"; */
+"AI2-Hq-aKH.text" = "123";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "CG7-dZ-ydc"; */
+"CG7-dZ-ydc.normalTitle" = "SKIP";
+
+/*-- Class = "UILabel"; text = "Reading Exercise"; ObjectID = "E67-0Q-7Vm"; */
+"E67-0Q-7Vm.text" = "Reading Exercise";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "Gt2-2W-HWY"; */
+"Gt2-2W-HWY.title" = "設定";
+
+/* Class = "UIButton"; normalTitle = "CHECK"; ObjectID = "IqK-zs-auh"; */
+"IqK-zs-auh.normalTitle" = "CHECK";
+
+/* Class = "UILabel"; text = "Repeat word list"; ObjectID = "KXh-Tx-um7"; */
+"KXh-Tx-um7.text" = "言葉目録 繰り返し";
+
+/* Class = "UITabBarItem"; title = "Welcome"; ObjectID = "M9H-6p-hTL"; */
+"M9H-6p-hTL.title" = "Welcome";
+
+/*-- Class = "UILabel"; text = "Spelling Exercise"; ObjectID = "NSc-2N-REh"; */
+"NSc-2N-REh.text" = "Spelling Exercise";
+
+/* Class = "UILabel"; text = "words left"; ObjectID = "Y0q-Vz-c5A"; */
+"Y0q-Vz-c5A.text" = "words left";
+
+/* Class = "UILabel"; text = "Welcome!"; ObjectID = "YRt-4I-Ejx"; */
+"YRt-4I-Ejx.text" = "Welcome!";
+
+/* Class = "UIButton"; normalTitle = "I want to keep practicing!"; ObjectID = "ZME-zF-ZSB"; */
+"ZME-zF-ZSB.normalTitle" = "I want to keep practicing!";
+
+/* Class = "UITabBarItem"; title = "Spelling Exercise"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "Spelling Exercise";
+
+/* Class = "UILabel"; text = "Reading Practice"; ObjectID = "bWd-d5-iDb"; */
+"bWd-d5-iDb.text" = "Reading Exercise";
+
+/* Class = "UITabBarItem"; title = "Reading Exercise"; ObjectID = "cPa-gy-q4n"; */
+"cPa-gy-q4n.title" = "Reading Exercise";
+
+/* Class = "UILabel"; text = " - Enjoy!"; ObjectID = "dI0-RL-0ZQ"; */
+"dI0-RL-0ZQ.text" = " - Enjoy!";
+
+/* Class = "UILabel"; text = "Repeat word list"; ObjectID = "ghq-uC-yDL"; */
+"ghq-uC-yDL.text" = "言葉目録 繰り返し";
+
+/* Class = "UILabel"; text = "Spelling Practice"; ObjectID = "hpN-Hl-a8O"; */
+"hpN-Hl-a8O.text" = "Spelling Practice";
+
+/* Class = "UIButton"; normalTitle = "I want to keep practicing!"; ObjectID = "jmi-5u-c8R"; */
+"jmi-5u-c8R.normalTitle" = "I want to keep practicing!";
+
+/* Class = "UILabel"; text = "Type the word that you hear:"; ObjectID = "mJG-I3-ZXB"; */
+"mJG-I3-ZXB.text" = "Type the word that you hear:";
+
+/* Class = "UILabel"; text = "This app is a tool for children that are just learning to read. However, it can be used by virtually anyone who wants to advance their reading and writing skills or just enhance memorization."; ObjectID = "nBa-cT-Mug"; */
+"nBa-cT-Mug.text" = "This app is a tool for children that are just learning to read. However, it can be used by virtually anyone who wants to advance their reading and writing skills or just enhance memorization.";
+
+/* Class = "UILabel"; text = "Randomize word list"; ObjectID = "pWS-hP-xjj"; */
+"pWS-hP-xjj.text" = "言葉目録 無作為";
+
+/* Class = "UILabel"; text = "Sight Word"; ObjectID = "ryS-Ek-pS9"; */
+"ryS-Ek-pS9.text" = "Sight Word";
+
+/* Class = "UILabel"; text = "(Note: This exercise requires speakers to be on.)"; ObjectID = "sAh-Kf-tHS"; */
+"sAh-Kf-tHS.text" = "(Note: This exercise requires speakers to be on.)";
+
+/* Class = "UILabel"; text = "Randomize word list"; ObjectID = "vp7-an-Bnc"; */
+"vp7-an-Bnc.text" = "言葉目録 無作為";
+
+/* Class = "UINavigationItem"; title = "Word List"; ObjectID = "wCf-ij-EMj"; */
+"wCf-ij-EMj.title" = "Word List";
+
+/* Class = "UILabel"; text = "That's it for today!"; ObjectID = "ywH-9w-YYa"; */
+"ywH-9w-YYa.text" = "That's it for today!";
+
+/* Class = "UILabel"; text = "Good Job!"; ObjectID = "zhc-oz-apB"; */
+"zhc-oz-apB.text" = "Good Job!";
+
+/* Class = "UILabel"; text = "That's it for today!"; ObjectID = "ziM-ZB-pTc"; */
+"ziM-ZB-pTc.text" = "That's it for today!";
